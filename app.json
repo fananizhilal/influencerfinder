@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Influencer Finder",
+    "slug": "TUBES-PAB",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splashInfluencer.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.fananizhl.TUBESPAB"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7bcb11d-7706-475a-a86d-ed9ba7e96344"
+      }
+    }
+  }
+}
